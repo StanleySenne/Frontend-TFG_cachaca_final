@@ -1,0 +1,29 @@
+$enable-grid-classes: false;
+$enable-cssgrid: true;
+.div-container {
+  display: flex;
+  flex-direction: row;
+
+  width: 100vw;
+}
+
+.grid {
+  padding-top: 6%;
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 25px;
+  min-height: 100vh;
+}
+
+.filter {
+  padding-top: 10% !important;
+  width: 20vw;
+  padding: 30px;
+}
+
+.product-image-catalog {
+  object-fit: contain;
+  height: 150px;
+  width: 150px;
+}
